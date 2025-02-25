@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250225193627">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__dashboard dashboard">
+				<div class="dashboard__container">
+					<div data-tabs class="dashboard__tabs tabs-dashboard">
+						<button type="button" class="tabs-dashboard__icon icon-menu"><span></span></button>
+						<div class="tabs-dashboard__side-bar">
+							<div class="tabs-dashboard__logo"><img src="img/logo.svg" alt="">
+								<h3>Dashboard</h3> <span>v.01</span>
+							</div>
+							<nav data-tabs-titles class="tabs-dashboard__navigation">
+								<button type="button" class="tabs-dashboard__title  _icon-chevron-right"><span class="_icon-key-square">Dashboard</span></button>
+								<button type="button" class="tabs-dashboard__title _icon-chevron-right"><span class="_icon-d-square">Product</span></button>
+								<button type="button" class="tabs-dashboard__title _tab-active _icon-chevron-right"><span class="_icon-user-square">Customers</span></button>
+								<button type="button" class="tabs-dashboard__title _icon-chevron-right"><span class="_icon-wallet-money">Income</span></button>
+								<button type="button" class="tabs-dashboard__title _icon-chevron-right"><span class="_icon-discount-shape">Promote</span></button>
+								<button type="button" class="tabs-dashboard__title _icon-chevron-right"><span class="_icon-message-question">Help</span></button>
+							</nav>
+							<div class="tabs-dashboard__user-block user-block">
+								<img src="img/user/user.webp" alt="Image">
+								<h4>Evano</h4>
+								<span>Project Manager</span>
+							</div>
+
+						</div>
+						<div class="tabs-dashboard__content-box">
+							<h2 class="tabs-dashboard__welcome-content">Hello Evano 👋🏼,</h2>
+
+							<div data-tabs-body class="tabs-dashboard__content">
+
+								<div class="tabs-dashboard__body">
+									Dashboard
+								</div>
+								<div class="tabs-dashboard__body">
+									Product
+								</div>
+								<div class="tabs-dashboard__body">
+									<div class="tabs-dashboard__customers customers">
+										<div class="customers__header">
+											<h2 class="customers__title">All Customers</h2>
+											<p class="customers__label-status">Active Members</p>
+											<div class="customers__search _icon-search">
+												<input type="search" placeholder="search">
+											</div>
+										</div>
+										<table class="customers__table table-customers">
+											<thead>
+												<tr>
+													<th>Customer Name</th>
+													<th>Company</th>
+													<th>Phone</th>
+													<th>Email</th>
+													<th>Country</th>
+													<th>Status</th>
+												</tr>
+											</thead>
+											<tbody id="customerTable"></tbody>
+										</table>
+										<div class="customers__footer">
+											<p class="customers__entries">Showing data 1 to 8 of 256K entries</p>
+											<div id="pageNumbers" class="pagination ">
+												<button id="prevPage">
+													< </button>
+														<span id="pageInfo"></span>
+														<button id="nextPage"> > </button>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="tabs-dashboard__body">
+									Income
+								</div>
+								<div class="tabs-dashboard__body">
+									Promote
+								</div>
+								<div class="tabs-dashboard__body">
+									Help
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250225193627"></script>
+</body>
+
+</html>
